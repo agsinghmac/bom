@@ -1,0 +1,16 @@
+name,type,revision,description,unit_of_measure,length,height,breadth,weight,cost,rohs,weee
+100000001,Motor,AA,"PDM 6-3/4in OBM High-Torque Motor",ea,7500.0,171.45,171.45,250000.0,12000.00,true,false
+100000002,Motor,AB,"PDM 8in OBM Standard Motor",ea,8200.0,203.2,203.2,300000.0,14000.00,true,false
+100000003,Motor,AC,"PDM 9-5/8in OBM Heavy-Duty Motor",ea,9000.0,244.48,244.48,400000.0,18000.00,true,false
+100000004,Motor,AD,"PDM 4-3/4in OBM Compact Motor",ea,6000.0,120.65,120.65,150000.0,8000.00,true,false
+100000005,Motor,AE,"PDM 11-1/4in OBM Ultra-High-Torque Motor",ea,10000.0,285.75,285.75,500000.0,25000.00,true,false
+200000001,Rotor,AA,"Steel Rotor for OBM, 5/6 Lobe",ea,5000.0,50.0,50.0,50000.0,2000.00,true,true
+200000002,Stator,AB,"HNBR Stator for OBM, 5/6 Lobe",ea,5100.0,150.0,150.0,60000.0,3000.00,false,true
+200000003,Top Sub,AA,"Top Sub for OBM Motor",ea,500.0,171.45,171.45,10000.0,500.00,true,false
+200000004,Bearing Assembly,AC,"Oil-Sealed Bearing for OBM",ea,1000.0,171.45,171.45,20000.0,1500.00,true,true
+200000005,Drive Shaft,AA,"Flex Drive Shaft for OBM",ea,1500.0,50.0,50.0,15000.0,1000.00,true,false
+300000001,Power Section,AA,"6-3/4in Power Section, High-Torque",ea,5100.0,171.45,171.45,70000.0,4000.00,true,false
+300000002,Power Section,AB,"8in Power Section, Standard",ea,5500.0,203.2,203.2,80000.0,4500.00,true,false
+300000003,Power Section,AC,"9-5/8in Power Section, Heavy-Duty",ea,6000.0,244.48,244.48,90000.0,5000.00,true,false
+300000004,Power Section,AD,"4-3/4in Power Section, Compact",ea,4000.0,120.65,120.65,50000.0,3000.00,true,false
+300000005,Power Section,AE,"11-1/4in Power Section, Ultra-High-Torque",ea,6500.0,285.75,285.75,100000.0,6000.00,true,false
