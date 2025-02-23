@@ -1,4 +1,4 @@
-parent_name,child_name,r.quantity,r.find_number
+parent_name,child_name,quantity,find_number
 100000001,200000001,1,1.1
 100000001,200000002,1,1.2
 100000001,200000003,1,1.3

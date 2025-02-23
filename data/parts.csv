@@ -1,4 +1,4 @@
-p.name,p.type,p.revision,p.description,p.unit_of_measure,p.length,p.height,p.breadth,p.weight,p.cost,p.rohs,p.weee,p.material,p.status,p.reason_for_change
+name,type,revision,description,unit_of_measure,length,height,breadth,weight,cost,rohs,weee,material,status,reason_for_change
 100000001,Motor,AA,PDM 6-3/4in OBM High-Torque Motor,ea,7500.0,171.45,171.45,250000.0,12000.0,true,false,Alloy,preliminary,null
 100000002,Motor,AA,PDM 8in OBM Standard Motor,ea,8200.0,203.2,203.2,300000.0,14000.0,true,false,Alloy,released,Initial release
 100000002,Motor,AB,PDM 8in OBM Standard Motor,ea,8200.0,203.2,203.2,300000.0,14000.0,true,false,Alloy,wip,Initial design improvement over AA
