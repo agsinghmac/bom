@@ -47,3 +47,26 @@ MATCH (older:Part {name: toInteger(row.older_name), revision: row.older_revision
 MATCH (newer:Part {name: toInteger(row.newer_name), revision: row.newer_revision})
 CREATE (older)-[:REVISED_TO]->(newer);
 ```
+
+### Verify the imported data
+
+#### Check Nodes:
+```
+MATCH (p:Part)
+RETURN p.name, p.revision, p.status, p.reason_for_change
+ORDER BY p.name, p.revision
+LIMIT 10;
+```
+
+#### Check Relationships
+```
+MATCH (p:Part)-[r:EBOM]->(c:Part)
+RETURN p.name, r.find_number, c.name
+LIMIT 10;
+```
+
+```
+MATCH (p:Part)-[r:REVISED_TO]->(n:Part)
+RETURN p.name, p.revision, n.revision
+LIMIT 10;
+```
