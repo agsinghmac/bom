@@ -1,0 +1,39 @@
+p.name,p.type,p.revision,p.description,p.unit_of_measure,p.length,p.height,p.breadth,p.weight,p.cost,p.rohs,p.weee,p.material,p.status,p.reason_for_change
+100000001,Motor,AA,PDM 6-3/4in OBM High-Torque Motor,ea,7500.0,171.45,171.45,250000.0,12000.0,true,false,Alloy,preliminary,null
+100000002,Motor,AA,PDM 8in OBM Standard Motor,ea,8200.0,203.2,203.2,300000.0,14000.0,true,false,Alloy,released,Initial release
+100000002,Motor,AB,PDM 8in OBM Standard Motor,ea,8200.0,203.2,203.2,300000.0,14000.0,true,false,Alloy,wip,Initial design improvement over AA
+100000003,Motor,AA,PDM 9-5/8in OBM Heavy-Duty Motor,ea,9000.0,244.48,244.48,400000.0,18000.0,true,false,Alloy,obsoleted,Initial release
+100000003,Motor,AB,PDM 9-5/8in OBM Heavy-Duty Motor,ea,9000.0,244.48,244.48,400000.0,18000.0,true,false,Alloy,released,Initial design improvement
+100000003,Motor,AC,PDM 9-5/8in OBM Heavy-Duty Motor,ea,9000.0,244.48,244.48,400000.0,18000.0,true,false,Alloy,preliminary,Material specification update over AB
+100000004,Motor,AA,PDM 4-3/4in OBM Compact Motor,ea,6000.0,120.65,120.65,150000.0,8000.0,true,false,Alloy,obsoleted,Initial release
+100000004,Motor,AB,PDM 4-3/4in OBM Compact Motor,ea,6000.0,120.65,120.65,150000.0,8000.0,true,false,Alloy,obsoleted,Initial design improvement
+100000004,Motor,AC,PDM 4-3/4in OBM Compact Motor,ea,6000.0,120.65,120.65,150000.0,8000.0,true,false,Alloy,released,Material specification update
+100000004,Motor,AD,PDM 4-3/4in OBM Compact Motor,ea,6000.0,120.65,120.65,150000.0,8000.0,true,false,Alloy,preliminary,Performance enhancement over AC
+100000005,Motor,AA,PDM 11-1/4in OBM Ultra-High-Torque Motor,ea,10000.0,285.75,285.75,500000.0,25000.0,true,false,Alloy,obsoleted,Initial release
+100000005,Motor,AB,PDM 11-1/4in OBM Ultra-High-Torque Motor,ea,10000.0,285.75,285.75,500000.0,25000.0,true,false,Alloy,obsoleted,Initial design improvement
+100000005,Motor,AC,PDM 11-1/4in OBM Ultra-High-Torque Motor,ea,10000.0,285.75,285.75,500000.0,25000.0,true,false,Alloy,obsoleted,Material specification update
+100000005,Motor,AD,PDM 11-1/4in OBM Ultra-High-Torque Motor,ea,10000.0,285.75,285.75,500000.0,25000.0,true,false,Alloy,released,Performance enhancement
+100000005,Motor,AE,PDM 11-1/4in OBM Ultra-High-Torque Motor,ea,10000.0,285.75,285.75,500000.0,25000.0,true,false,Alloy,preliminary,High-torque optimization over AD
+200000001,Rotor,AA,"Steel Rotor for OBM, 5/6 Lobe",ea,5000.0,50.0,50.0,50000.0,2000.0,true,true,Steel,released,null
+200000002,Stator,AA,"HNBR Stator for OBM, 5/6 Lobe",ea,5100.0,150.0,150.0,60000.0,3000.0,false,true,HNBR,obsoleted,Initial release
+200000002,Stator,AB,"HNBR Stator for OBM, 5/6 Lobe",ea,5100.0,150.0,150.0,60000.0,3000.0,false,true,HNBR,released,Initial design improvement over AA
+200000003,Top Sub,AA,Top Sub for OBM Motor,ea,500.0,171.45,171.45,10000.0,500.0,true,false,Steel,released,null
+200000004,Bearing Assembly,AA,Oil-Sealed Bearing for OBM,ea,1000.0,171.45,171.45,20000.0,1500.0,true,true,Steel,obsoleted,Initial release
+200000004,Bearing Assembly,AB,Oil-Sealed Bearing for OBM,ea,1000.0,171.45,171.45,20000.0,1500.0,true,true,Steel,obsoleted,Initial design improvement
+200000004,Bearing Assembly,AC,Oil-Sealed Bearing for OBM,ea,1000.0,171.45,171.45,20000.0,1500.0,true,true,Steel,released,Material specification update over AB
+200000005,Drive Shaft,AA,Flex Drive Shaft for OBM,ea,1500.0,50.0,50.0,15000.0,1000.0,true,false,Steel,released,null
+300000001,Power Section,AA,"6-3/4in Power Section, High-Torque",ea,5100.0,171.45,171.45,70000.0,4000.0,true,false,Alloy,wip,null
+300000002,Power Section,AA,"8in Power Section, Standard",ea,5500.0,203.2,203.2,80000.0,4500.0,true,false,Alloy,released,Initial release
+300000002,Power Section,AB,"8in Power Section, Standard",ea,5500.0,203.2,203.2,80000.0,4500.0,true,false,Alloy,released,Initial design improvement over AA
+300000003,Power Section,AA,"9-5/8in Power Section, Heavy-Duty",ea,6000.0,244.48,244.48,90000.0,5000.0,true,false,Alloy,released,Initial release
+300000003,Power Section,AB,"9-5/8in Power Section, Heavy-Duty",ea,6000.0,244.48,244.48,90000.0,5000.0,true,false,Alloy,released,Initial design improvement
+300000003,Power Section,AC,"9-5/8in Power Section, Heavy-Duty",ea,6000.0,244.48,244.48,90000.0,5000.0,true,false,Alloy,released,Material specification update over AB
+300000004,Power Section,AA,"4-3/4in Power Section, Compact",ea,4000.0,120.65,120.65,50000.0,3000.0,true,false,Alloy,released,Initial release
+300000004,Power Section,AB,"4-3/4in Power Section, Compact",ea,4000.0,120.65,120.65,50000.0,3000.0,true,false,Alloy,released,Initial design improvement
+300000004,Power Section,AC,"4-3/4in Power Section, Compact",ea,4000.0,120.65,120.65,50000.0,3000.0,true,false,Alloy,released,Material specification update
+300000004,Power Section,AD,"4-3/4in Power Section, Compact",ea,4000.0,120.65,120.65,50000.0,3000.0,true,false,Alloy,released,Performance enhancement over AC
+300000005,Power Section,AA,"11-1/4in Power Section, Ultra-High-Torque",ea,6500.0,285.75,285.75,100000.0,6000.0,true,false,Alloy,released,Initial release
+300000005,Power Section,AB,"11-1/4in Power Section, Ultra-High-Torque",ea,6500.0,285.75,285.75,100000.0,6000.0,true,false,Alloy,released,Initial design improvement
+300000005,Power Section,AC,"11-1/4in Power Section, Ultra-High-Torque",ea,6500.0,285.75,285.75,100000.0,6000.0,true,false,Alloy,released,Material specification update
+300000005,Power Section,AD,"11-1/4in Power Section, Ultra-High-Torque",ea,6500.0,285.75,285.75,100000.0,6000.0,true,false,Alloy,released,Performance enhancement
+300000005,Power Section,AE,"11-1/4in Power Section, Ultra-High-Torque",ea,6500.0,285.75,285.75,100000.0,6000.0,true,false,Alloy,released,High-torque optimization over AD
