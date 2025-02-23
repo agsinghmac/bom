@@ -1,13 +1,15 @@
 
-###Data set to create Parts and EBOM in neo4j database instance
+#Data set to create Parts and EBOM in neo4j database instance
 
 ##Here are the dataset files
   - data/parts.csv
   - data/ebom_relationships.csv
   - data/revised_to_relationships.csv
 
-Use below scripts to load the data in neo4j
-<p>
+##Use below scripts to load the data in neo4j
+
+###Load Parts
+
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/agsinghmac/bom/refs/heads/main/data/parts.csv' AS row
 CREATE (:Part {
   name: toInteger(row.name),
@@ -28,6 +30,7 @@ CREATE (:Part {
 });
 CREATE INDEX FOR (p:Part) ON (p.name);
 
+##Load EBOM relationship
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/agsinghmac/bom/refs/heads/main/data/ebom_relationships.csv' AS row
 MATCH (parent:Part {name: toInteger(row.parent_name)})
@@ -37,10 +40,9 @@ CREATE (parent)-[:EBOM {
   find_number: row.find_number
 }]->(child);
 
+##Load Revision chain
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/agsinghmac/bom/refs/heads/main/data/revised_to_relationships.csv' AS row
 MATCH (older:Part {name: toInteger(row.older_name), revision: row.older_revision})
 MATCH (newer:Part {name: toInteger(row.newer_name), revision: row.newer_revision})
 CREATE (older)-[:REVISED_TO]->(newer);
-  
-</p>
