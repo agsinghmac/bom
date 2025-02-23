@@ -1,7 +1,7 @@
-<h1>
-Data set to create Parts and EBOM in neo4j database instance
-</h1>
-Here are the dataset files
+
+###Data set to create Parts and EBOM in neo4j database instance
+
+##Here are the dataset files
   - data/parts.csv
   - data/ebom_relationships.csv
   - data/revised_to_relationships.csv
